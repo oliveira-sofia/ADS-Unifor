@@ -1,0 +1,14 @@
+<meta charset = "UTF-8">
+<script>
+
+//Somatório: Soma de um conjunto de números.
+
+var n, soma=0, cont=1;
+n=parseInt(prompt("Informe a quantidade de termos do somatório:"));
+while (cont<=n){
+    soma=soma+cont;
+    cont++;
+}
+document.write("o somatório foi"+soma+"<br>");
+
+<script>
