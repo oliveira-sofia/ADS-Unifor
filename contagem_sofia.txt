@@ -1,0 +1,23 @@
+<meta charset = "UTF-8">
+<script>
+
+//Contagem: Dado um valor N, conte quantos valores inteiros existem entre 1 (inclusive) e N (inclusive).
+
+var leito=parseInt(promt("Informe o valor de N: "));
+function cont (x) {
+    var contagem=0;
+    var i=0;
+    while (i>=0) {
+        if (x>=1){
+            contagem++
+        }
+        i++;
+    }
+}
+document.write("A contagem é "+cont(leitor));
+
+/*professor, aqui pensei só fazer assim:
+var leitor=parseInt(promt("Informe o valor de N: "));
+document.write("A contagem é "+leitor);*/
+
+</script>
